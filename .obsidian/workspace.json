@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/基础/8. Python 并发编程超详细笔记.md",
+                "file": "Python/数据库/Pymysql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Python 并发编程超详细笔记"
+              "title": "Pymysql"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/基础/8. Python 并发编程超详细笔记.md",
+                "file": "Python/数据库/Pymysql.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "8. Python 并发编程超详细笔记 的大纲"
+              "title": "Pymysql 的大纲"
             }
           }
         ],
@@ -171,22 +171,29 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ad825b03d0353565",
+  "active": "34faf35c52c3dfc5",
   "lastOpenFiles": [
+    "未命名.md",
+    "Python/数据库/Pymysql.md",
+    "Python/爬虫/爬虫基础/2. Python正则表达式超详细笔记.md",
+    "Python/爬虫/爬虫基础/1. Python 爬虫基础超详细笔记.md",
+    "Python/基础/7. Python 面向对象编程（类与对象）超详细完整笔记.md",
+    "Python/爬虫/爬虫基础",
+    "Python/基础/6. Python 模块和包超详细完整笔记.md",
+    "Python/基础/5. Python 文件操作超详细完整笔记.md",
+    "Python/基础/3. Python 控制结构超详细笔记.md",
+    "Python/基础/1. Python 变量超详细笔记.md",
     "Python/常用库/Logging.md",
+    "Python/基础/10. Python协程超详细笔记.md",
+    "Python/数据库",
+    "Git 使用完整指南：从初始化到日常开发.md",
     "Python/基础/8. Python 并发编程超详细笔记.md",
     "Python/常用库/Matplotlib.md",
     "Python/常用库/NumPy.md",
     "Python/常用库/Pandas 库超详细笔记.md",
-    "Python/基础/7. Python 面向对象编程（类与对象）超详细完整笔记.md",
     "Python/常用库",
-    "Python/基础/5. Python 文件操作超详细完整笔记.md",
-    "Python/基础/6. Python 模块和包超详细完整笔记.md",
     "Python/基础/2. Python 数据类型与数据结构超详细笔记.md",
     "Python/基础/4. Python 函数超详细完整笔记.md",
-    "Python/基础/3. Python 控制结构超详细笔记.md",
-    "Python/基础/1. Python 变量超详细笔记.md",
-    "Git 使用完整指南：从初始化到日常开发.md",
     "Git 使用完整指南.md",
     "欢迎.md",
     "未命名.canvas",
