@@ -32,6 +32,8 @@ git help
 ### 2.1 安装Git
 ```bash
 # Windows: 下载Git for Windows
+# https://git-scm.com/install/windows
+
 # macOS: brew install git 或下载安装包
 # Linux: 
 sudo apt-get install git    # Ubuntu/Debian
@@ -79,6 +81,21 @@ git st  # 相当于 git status
 git co -b new-branch  # 相当于 git checkout -b new-branch
 ```
 
+### 2.4 生成和查看`SSH`密钥
+```bash
+# 基于 ED25519 算法，生成密钥
+ssh-keygen -t ed25519 -C "<注释内容>"
+
+# 查看 ED25519 密钥
+cat ~/.ssh/id_ed25519.pub
+
+# 基于 RSA 算法，生成密钥
+ssh-keygen -t rsa -C "<注释内容>"
+
+# 查看 RSA 密钥
+cat ~/.ssh/id_rsa.pub
+```
+
 ## 3. 创建和克隆仓库
 
 ### 3.1 初始化新仓库
@@ -115,6 +132,23 @@ git clone https://github.com/username/repository.git my-folder
 
 # 克隆特定分支
 git clone -b develop https://github.com/username/repository.git
+```
+
+### 3.3 其他操作
+```bash
+git remote add origin git@github.com:wolf-xxl/...
+# 添加远程仓库源，命名为 "origin"
+# 指向你的 GitHub 仓库地址
+
+git branch -M main
+# 将当前分支重命名为 "main"（替代原来的 "master"）
+# -M 表示强制重命名
+
+git push -u origin main
+# 将本地 "main" 分支推送到远程 "origin" 仓库
+# -u 参数设置上游跟踪，后续可以直接用 git push
+
+
 ```
 
 ## 4. 基本文件操作
@@ -881,20 +915,3 @@ git config --global push.default simple
 # 拉取时 rebase
 git config --global pull.rebase true
 ```
-
-这个超详细的Git笔记涵盖了从基础到高级的所有重要概念，包括：
-
-1. Git基础概念和工作流程
-2. 安装配置和初始化
-3. 基本文件操作和提交管理
-4. 分支管理和合并策略
-5. 远程仓库操作和团队协作
-6. 撤销更改和重置操作
-7. 标签管理和版本控制
-8. 高级操作（储藏、变基、子模块）
-9. 调试和问题排查技巧
-10. 工作流和最佳实践
-11. 团队协作流程
-12. 常见问题解决方案
-13. Git钩子使用
-14. 性能优化配置
