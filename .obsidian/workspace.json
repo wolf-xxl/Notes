@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git 使用完整指南：从初始化到日常开发.md",
+                "file": "Python/爬虫/Js逆向/笔记/09. SM 国密系列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git 使用完整指南：从初始化到日常开发"
+              "title": "09. SM 国密系列"
             }
           }
         ],
@@ -172,21 +172,26 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "9e9fe0a4d09fb579",
+  "active": "ad825b03d0353565",
   "lastOpenFiles": [
+    "Python/爬虫/Js逆向/笔记/10. WebAssembly.md",
+    "Python/爬虫/Js逆向/笔记/08. webpack 打包.md",
+    "Python/爬虫/Js逆向/笔记/07. 非对称加密.md",
+    "Python/爬虫/Js逆向/笔记/06. 对称加密.md",
+    "Python/爬虫/Js逆向/笔记/05. 摘要算法.md",
+    "Python/爬虫/Js逆向/笔记/04. JavaScript 的调用方式.md",
+    "Python/爬虫/Js逆向/笔记/03. HOOK 技术.md",
+    "Python/爬虫/Js逆向/笔记/02. 浏览器调试技巧.md",
+    "Python/爬虫/Js逆向/笔记/01. JavaScript 语法基础.md",
+    "Git 使用完整指南：从初始化到日常开发.md",
     "Python/爬虫/Js逆向/附件/3.定位加密响应对象位置 - hook.md",
     "Python/爬虫/Js逆向/附件/2.定位响应对象解密位置 - hook.md",
     "Python/爬虫/Js逆向/附件/1.构造器debugger - hook.md",
-    "Python/爬虫/Js逆向/笔记/3. HOOK 技术.md",
-    "Python/爬虫/Js逆向/笔记/4. JavaScript 的调用方式.md",
-    "Python/爬虫/Js逆向/笔记/1. JavaScript 语法基础.md",
     "Python/爬虫/Js逆向/笔记",
     "Python/爬虫/Js逆向/附件",
     "Web/游戏攻略工具网站个人开发项目计划书.md",
     "Web/游戏攻略工具网站项目计划书.md",
     "游戏攻略工具网站个人开发项目计划书.md.tmp.15516.1767708959432",
-    "Python/爬虫/Js逆向/笔记/2. 浏览器调试技巧.md",
-    "Git 使用完整指南：从初始化到日常开发.md",
     "Web/项目计划.md",
     "Web",
     "pwd.md",
@@ -210,15 +215,10 @@
     "Python/基础/2. Python 数据类型与数据结构超详细笔记.md",
     "Python/基础/4. Python 函数超详细完整笔记.md",
     "Python/基础/6. Python 模块和包超详细完整笔记.md",
-    "Python/基础/3. Python 控制结构超详细笔记.md",
-    "Python/爬虫/爬虫基础/2. Python正则表达式超详细笔记.md",
     "Untitled.base",
     "Untitled 3.base",
     "Untitled 1.base",
     "Untitled 2.base",
-    "Python/爬虫/Js逆向/笔记/16. 爬虫逆向之补环境.md",
-    "Python/爬虫/Js逆向/笔记/15. WebSocket.md",
-    "Python/爬虫/Js逆向/笔记/12. JavaScript 代码混淆.md",
     "Python/爬虫/爬虫基础",
     "Python/数据库"
   ]
